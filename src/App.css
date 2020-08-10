@@ -1,38 +1,64 @@
 .App {
+  background-color: rgb(23, 28, 34);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.listMov {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  background-color: rgb(31, 38, 46);
+  margin: 25px;
+  width: 400px;
+  height: 690px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-body {
+  background-color: rgb(31, 38, 46);
+  border-radius: 15px;
+  border-color: red;
+  border-width: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ptitle {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 60px;
+  color: #46626e;
 }
+.title {
+  font-size: 25px;
+  font-family: Cursive;
+  color: #b4b4b3;
+  text-transform: capitalize;
+}
+
+.synopsis {
+  font-size: 15px;
+  color: #b4b4b3;
+}
+
+.director {
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman",
+    serif;
+  font-size: 25px;
+  color: #b4b4b3;
+}
+
+/* .addbutton {
+margin-left: 650px;
+}
+
+.search {
+  margin-left: 800px;
+  } */
+
+  .AddForm {
+    background-color: rgb(79, 78, 95);
+    }
